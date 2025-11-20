@@ -1,8 +1,8 @@
 import NavBar from './NavBar'
 
-function Header() {
+function Header({darkMode, toggleDarkMode}) {
     return (
-        <NavBar />
+        <NavBar darkMode={darkMode} toggleDarkMode={toggleDarkMode}/>
     )
 }
 
